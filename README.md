@@ -40,6 +40,13 @@ Instructions on how to install and run the project on a local machine.
 - Room
 - DataStore
 
+## Architecture
+Dicoding Story App is built using the MVVM (Model-View-ViewModel) architecture. This architecture separates the UI (View) from the data (Model) and the logic that connects them (ViewModel). Here's a brief overview of the different components in this architecture:
+
+- Model: Contains the data and business logic of the app. In this app, the model is responsible for fetching movie data from a remote server and storing it in a local database.
+- View: Displays the UI of the app to the user. In this app, the view is responsible for displaying a list of movies and their details.
+- ViewModel: Connects the view with the model by providing data to the view and handling user interactions. In this app, the viewmodel is responsible for fetching data from the model and formatting it for display in the view.
+
 ## Contributing
 If you would like to contribute to the project, please follow these steps:
 1. Fork the repository.
@@ -51,3 +58,6 @@ If you would like to contribute to the project, please follow these steps:
 
 ## License
 This project is licensed under the <a href="https://opensource.org/licenses/MIT">MIT License</a>.
+
+## Contact Information
+If you have any questions or feedback about Dicoding Story App, please contact us at mtio871@gmail.com.
