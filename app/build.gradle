@@ -12,7 +12,6 @@ android {
 
     defaultConfig {
         buildConfigField("String", "BASE_URL", '"https://story-api.dicoding.dev/v1/"')
-        buildConfigField("String", "MAPS_API_KEY", MAPS_API_KEY)
         applicationId "com.example.storyapp"
         minSdk 24
         targetSdk 33
