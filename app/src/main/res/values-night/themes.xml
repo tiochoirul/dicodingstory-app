@@ -1,0 +1,17 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.StoryApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColorNight</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColorNight</item>
+        <item name="colorOnPrimary">@color/primaryTextColorNight</item>
+        <item name="titleTextColor">@color/primaryTextColorNight</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryColorNight</item>
+        <item name="colorSecondaryVariant">@color/secondaryDarkColorNight</item>
+        <item name="colorOnSecondary">@color/secondaryTextColorNight</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

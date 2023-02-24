@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Dicoding Story</string>
+
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="logout">Logout</string>
+
+    <string name="error_empty_password">Password cannot be empty</string>
+    <string name="error_length_password">Password is at least 8 characters</string>
+    <string name="error_empty_email">Email is required</string>
+    <string name="error_valid_email">The email entered is not correct</string>
+    <string name="error_email_password">Email and password incomplete</string>
+    <string name="error_permission">Did not get permissions.</string>
+    <string name="error_file">Please enter the image file first.</string>
+
+    <string name="title_welcome_page">Hi, welcome to Dicoding Story!</string>
+    <string name="message_welcome_page">Share moments for your friends?</string>
+    <string name="copyright">© 2023 tcm</string>
+    <string name="title_login">Log in</string>
+    <string name="subtitle_login">Enter the registered email and password</string>
+
+    <string name="user_name">User Name</string>
+    <string name="description">Description</string>
+    <string name="upload_date">Uploaded on </string>
+    <string name="account">Your Account</string>
+    <string name="add_your_story">Add your story</string>
+
+    <string name="upload">Upload</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="photo">Photo</string>
+    <string name="take_photo">Take photo</string>
+    <string name="switch_camera">Switch camera</string>
+    <string name="refresh">Refresh</string>
+    <string name="setting">Setting</string>
+    <string name="add_new_story">Add New Story</string>
+
+    <string name="choose_picture">Choose a Picture</string>
+    <string name="error_open_camera">Failed to bring up the camera.</string>
+    <string name="error_failed_take_photo">Failed to take picture.</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="retry">Retry</string>
+    <string name="location_switch">Add your current location</string>
+</resources>

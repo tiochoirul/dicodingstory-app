@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.stories.AddStoryActivity">
+
+    <ImageView
+        android:id="@+id/iv_upload_photo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/margin32dp"
+        android:layout_marginTop="@dimen/margin32dp"
+        android:layout_marginEnd="@dimen/margin32dp"
+        android:layout_marginBottom="@dimen/margin32dp"
+        android:contentDescription="@string/photo"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/button_camera"
+        app:srcCompat="@drawable/ic_place_holder" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/btn_height"
+        android:text="@string/camera"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toTopOf="@id/guideline_horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/button_gallery" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/btn_height"
+        android:text="@string/gallery"
+        app:cornerRadius="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/button_camera"
+        app:layout_constraintTop_toTopOf="@id/button_camera"
+        app:layout_constraintBottom_toBottomOf="@id/button_camera" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edt_description"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin16dp"
+        android:layout_marginBottom="@dimen/margin16dp"
+        app:boxCornerRadiusTopStart="20dp"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:layout_constraintTop_toBottomOf="@id/guideline_horizontal"
+        app:layout_constraintStart_toStartOf="@id/iv_upload_photo"
+        app:layout_constraintEnd_toEndOf="@id/iv_upload_photo"
+        app:layout_constraintBottom_toTopOf="@id/switch_location">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ed_add_description"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top|start"
+            android:inputType="textMultiLine"
+            android:lines="6"
+            android:maxLines="10"
+            android:minLines="5"
+            android:scrollbars="vertical"
+            android:hint="@string/description"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switch_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin16dp"
+        app:layout_constraintStart_toStartOf="@id/edt_description"
+        app:layout_constraintBottom_toTopOf="@id/button_add" />
+
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/location_switch"
+        android:layout_marginStart="@dimen/margin16dp"
+        app:layout_constraintStart_toEndOf="@id/switch_location"
+        app:layout_constraintTop_toTopOf="@id/switch_location"
+        app:layout_constraintBottom_toBottomOf="@id/switch_location" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_add"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginBottom="@dimen/margin32dp"
+        android:layout_marginStart="@dimen/margin32dp"
+        android:layout_marginEnd="@dimen/margin32dp"
+        android:text="@string/upload"
+        app:cornerRadius="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintGuide_percent="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintGuide_percent="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

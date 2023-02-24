@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dicoding Story</string>
+
+    <string name="name">Nama</string>
+    <string name="email">Email</string>
+    <string name="password">Kata Sandi</string>
+
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="logout">Logout</string>
+
+    <string name="error_empty_password">Kata sandi tidak boleh kosong</string>
+    <string name="error_length_password">Kata Sandi minimal 8 karakter</string>
+    <string name="error_empty_email">Email wajib diisi</string>
+    <string name="error_valid_email">Email tidak sesuai</string>
+    <string name="error_email_password">Email dan password tidak sesuai</string>
+    <string name="error_permission">Tidak mendapatkan permission.</string>
+    <string name="error_file">Silahkan masukkan berkas gambar terlebih dahulu.</string>
+
+    <string name="title_welcome_page">Hi, selamat datang di Dicoding Story!</string>
+    <string name="message_welcome_page">Bagikan momen terbaru untuk temanmu?</string>
+    <string name="copyright">© 2023 tcm</string>
+    <string name="title_login">Masukkan akun</string>
+    <string name="subtitle_login">Masukkan email dan kata sandi yang sudah terdaftar</string>
+
+    <string name="user_name">Nama User</string>
+    <string name="description">Deskripsi</string>
+    <string name="upload_date">Diunggah pada </string>
+    <string name="account">Akunmu</string>
+    <string name="add_your_story">Tambahkan cerita</string>
+
+    <string name="upload">Unggah</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="photo">Foto</string>
+    <string name="take_photo">Ambil Foto</string>
+    <string name="switch_camera">Ganti kamera</string>
+    <string name="refresh">Perbaharui</string>
+    <string name="setting">Pengaturan</string>
+    <string name="add_new_story">Tambahkan cerita</string>
+
+    <string name="choose_picture">Pilih foto terlebih dahulu</string>
+    <string name="error_open_camera">Failed to bring up the camera.</string>
+    <string name="error_failed_take_photo">Gagal mengambil gambar.</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="retry">Coba lagi</string>
+    <string name="location_switch">Tambahkan lokasimu saat ini</string>
+</resources>
