@@ -1,6 +1,6 @@
 # Dicoding Story App
 
-This is the final submission to graduate from the Android Application Intermediate Learning class organized by IDCampXdicoding.
+This is the final submission to graduate from the Android Application Intermediate Learning class organized by IDCampXdicoding. DicodingStory App is a sample Android application built using Kotlin language. This app is created as part of the final project submission for the "Learn Kotlin for Android Development" course on Dicoding.
 
 ![page-one](https://user-images.githubusercontent.com/108212568/221072944-c3ec792f-0c66-4f98-8db3-488c69f8933d.jpg)
 ![page-two](https://user-images.githubusercontent.com/108212568/221072959-b9308b69-b0f4-4dec-9bf6-f85ba430c5a1.jpg)
